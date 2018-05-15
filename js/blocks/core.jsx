@@ -1,5 +1,6 @@
 const { __ } = wp.i18n;
-const { InspectorControls, registerBlockType } = wp.blocks;
+const { registerBlockType } = wp.blocks;
+const { InspectorControls } = wp.editor;
 const { Dashicon, PanelBody, Placeholder, SelectControl, Spinner, TextControl, ToggleControl } = wp.components;
 const { Component, RawHTML } = wp.element;
 
